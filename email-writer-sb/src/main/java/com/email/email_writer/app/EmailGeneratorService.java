@@ -46,7 +46,6 @@ public class EmailGeneratorService {
                 .block();
 
         // extract and return response`
-
         return extractResponseContent(response);
     }
 
